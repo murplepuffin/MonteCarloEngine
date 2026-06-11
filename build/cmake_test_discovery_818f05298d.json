@@ -1,0 +1,59 @@
+{
+  "tests": 7,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "LCGRandomTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ValuesAreInRange",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_lcg.cpp",
+          "line": 5
+        },
+        {
+          "name": "SameSeedProducesSameSequence",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_lcg.cpp",
+          "line": 16
+        },
+        {
+          "name": "MeanIsApproximatelyHalf",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_lcg.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "MTRandomTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ValuesAreInRange",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_mt.cpp",
+          "line": 5
+        },
+        {
+          "name": "SameSeedProducesSameSequence",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_mt.cpp",
+          "line": 16
+        },
+        {
+          "name": "MeanIsApproximatelyHalf",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_mt.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "BoxMullerTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DistributionStatistics",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_boxmuller.cpp",
+          "line": 6
+        }
+      ]
+    }
+  ]
+}

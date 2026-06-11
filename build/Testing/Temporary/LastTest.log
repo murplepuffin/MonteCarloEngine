@@ -1,0 +1,165 @@
+Start testing: May 20 14:42 EDT
+----------------------------------------------------------
+1/6 Testing: LCGRandomTest.ValuesAreInRange
+1/6 Test: LCGRandomTest.ValuesAreInRange
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=LCGRandomTest.ValuesAreInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"LCGRandomTest.ValuesAreInRange" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LCGRandomTest.ValuesAreInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LCGRandomTest
+[ RUN      ] LCGRandomTest.ValuesAreInRange
+[       OK ] LCGRandomTest.ValuesAreInRange (4 ms)
+[----------] 1 test from LCGRandomTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LCGRandomTest.ValuesAreInRange" end time: May 20 14:42 EDT
+"LCGRandomTest.ValuesAreInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: LCGRandomTest.SameSeedProducesSameSequence
+2/6 Test: LCGRandomTest.SameSeedProducesSameSequence
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=LCGRandomTest.SameSeedProducesSameSequence" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"LCGRandomTest.SameSeedProducesSameSequence" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LCGRandomTest.SameSeedProducesSameSequence
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LCGRandomTest
+[ RUN      ] LCGRandomTest.SameSeedProducesSameSequence
+[       OK ] LCGRandomTest.SameSeedProducesSameSequence (0 ms)
+[----------] 1 test from LCGRandomTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LCGRandomTest.SameSeedProducesSameSequence" end time: May 20 14:42 EDT
+"LCGRandomTest.SameSeedProducesSameSequence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: LCGRandomTest.MeanIsApproximatelyHalf
+3/6 Test: LCGRandomTest.MeanIsApproximatelyHalf
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=LCGRandomTest.MeanIsApproximatelyHalf" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"LCGRandomTest.MeanIsApproximatelyHalf" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LCGRandomTest.MeanIsApproximatelyHalf
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LCGRandomTest
+[ RUN      ] LCGRandomTest.MeanIsApproximatelyHalf
+[       OK ] LCGRandomTest.MeanIsApproximatelyHalf (6 ms)
+[----------] 1 test from LCGRandomTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LCGRandomTest.MeanIsApproximatelyHalf" end time: May 20 14:42 EDT
+"LCGRandomTest.MeanIsApproximatelyHalf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: MTRandomTest.ValuesAreInRange
+4/6 Test: MTRandomTest.ValuesAreInRange
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=MTRandomTest.ValuesAreInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"MTRandomTest.ValuesAreInRange" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MTRandomTest.ValuesAreInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MTRandomTest
+[ RUN      ] MTRandomTest.ValuesAreInRange
+[       OK ] MTRandomTest.ValuesAreInRange (6 ms)
+[----------] 1 test from MTRandomTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MTRandomTest.ValuesAreInRange" end time: May 20 14:42 EDT
+"MTRandomTest.ValuesAreInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: MTRandomTest.SameSeedProducesSameSequence
+5/6 Test: MTRandomTest.SameSeedProducesSameSequence
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=MTRandomTest.SameSeedProducesSameSequence" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"MTRandomTest.SameSeedProducesSameSequence" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MTRandomTest.SameSeedProducesSameSequence
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MTRandomTest
+[ RUN      ] MTRandomTest.SameSeedProducesSameSequence
+[       OK ] MTRandomTest.SameSeedProducesSameSequence (0 ms)
+[----------] 1 test from MTRandomTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MTRandomTest.SameSeedProducesSameSequence" end time: May 20 14:42 EDT
+"MTRandomTest.SameSeedProducesSameSequence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: MTRandomTest.MeanIsApproximatelyHalf
+6/6 Test: MTRandomTest.MeanIsApproximatelyHalf
+Command: "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" "--gtest_filter=MTRandomTest.MeanIsApproximatelyHalf" "--gtest_also_run_disabled_tests"
+Directory: /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build
+"MTRandomTest.MeanIsApproximatelyHalf" start time: May 20 14:42 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MTRandomTest.MeanIsApproximatelyHalf
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MTRandomTest
+[ RUN      ] MTRandomTest.MeanIsApproximatelyHalf
+[       OK ] MTRandomTest.MeanIsApproximatelyHalf (27 ms)
+[----------] 1 test from MTRandomTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MTRandomTest.MeanIsApproximatelyHalf" end time: May 20 14:42 EDT
+"MTRandomTest.MeanIsApproximatelyHalf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 20 14:42 EDT

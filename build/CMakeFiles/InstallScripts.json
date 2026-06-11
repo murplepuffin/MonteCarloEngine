@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/cmake_install.cmake",
+		"/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

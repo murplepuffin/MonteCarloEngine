@@ -1,0 +1,7 @@
+LCGRandomTest.ValuesAreInRange 1 0.0110848
+LCGRandomTest.SameSeedProducesSameSequence 1 0.00485246
+LCGRandomTest.MeanIsApproximatelyHalf 1 0.0118829
+MTRandomTest.ValuesAreInRange 1 0.011192
+MTRandomTest.SameSeedProducesSameSequence 1 0.00443463
+MTRandomTest.MeanIsApproximatelyHalf 1 0.0317113
+---
