@@ -1,6 +1,8 @@
 #include "random/BoxMullerNormal.hpp"
 
+#include <algorithm>
 #include <cmath>
+#include <limits>
 
 BoxMullerNormal::BoxMullerNormal(
     std::unique_ptr<IRandomGenerator> rng)
@@ -8,9 +10,11 @@ BoxMullerNormal::BoxMullerNormal(
 
 double BoxMullerNormal::nextNormal() {
 
-    double u1 = uniformRng->nextDouble();
+    const double u1 = std::max(
+        uniformRng->nextDouble(),
+        std::numeric_limits<double>::min());
     double u2 = uniformRng->nextDouble();
 
     return std::sqrt(-2.0 * std::log(u1))
-           * std::cos(2.0 * M_PI * u2);
+           * std::cos(2.0 * std::acos(-1.0) * u2);
 }
