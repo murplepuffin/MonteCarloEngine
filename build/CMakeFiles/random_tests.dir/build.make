@@ -114,11 +114,26 @@ CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_boxmuller.cpp" -o CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.s
 
+CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o: CMakeFiles/random_tests.dir/flags.make
+CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o: /Users/kevinnguyen/Documents/quant\ study\ materials/projects/MonteCarloEngine/tests/test_monte_carlo_pricer.cpp
+CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o: CMakeFiles/random_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o -MF CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o.d -o CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o -c "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_monte_carlo_pricer.cpp"
+
+CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_monte_carlo_pricer.cpp" > CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.i
+
+CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_monte_carlo_pricer.cpp" -o CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.s
+
 # Object files for target random_tests
 random_tests_OBJECTS = \
 "CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o" \
 "CMakeFiles/random_tests.dir/tests/test_mt.cpp.o" \
-"CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o"
+"CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o" \
+"CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o"
 
 # External object files for target random_tests
 random_tests_EXTERNAL_OBJECTS =
@@ -126,12 +141,14 @@ random_tests_EXTERNAL_OBJECTS =
 random_tests: CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o
 random_tests: CMakeFiles/random_tests.dir/tests/test_mt.cpp.o
 random_tests: CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o
+random_tests: CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o
 random_tests: CMakeFiles/random_tests.dir/build.make
-random_tests: librandom_lib.a
+random_tests: libpricing_lib.a
 random_tests: lib/libgtest_main.a
+random_tests: librandom_lib.a
 random_tests: lib/libgtest.a
 random_tests: CMakeFiles/random_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable random_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable random_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/random_tests.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/cmake -D TEST_TARGET=random_tests -D "TEST_EXECUTABLE=/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=random_tests_TESTS -D "CTEST_FILE=/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/random_tests[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
 

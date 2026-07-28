@@ -34,6 +34,17 @@ add_library(random_lib
 target_include_directories(random_lib PUBLIC include)
 
 # ============================================
+# Pricing Library
+# ============================================
+
+add_library(pricing_lib
+    src/pricing/MonteCarloPricer.cpp
+)
+
+target_include_directories(pricing_lib PUBLIC include)
+target_link_libraries(pricing_lib PUBLIC random_lib)
+
+# ============================================
 # Main Executable
 # ============================================
 
@@ -41,7 +52,7 @@ add_executable(montecarlo
     main.cpp
 )
 
-target_link_libraries(montecarlo PRIVATE random_lib)
+target_link_libraries(montecarlo PRIVATE pricing_lib)
 
 # ============================================
 # GoogleTest
@@ -66,11 +77,12 @@ add_executable(random_tests
     tests/test_lcg.cpp
     tests/test_mt.cpp
     tests/test_boxmuller.cpp
+    tests/test_monte_carlo_pricer.cpp
 )
 
 target_link_libraries(random_tests
     PRIVATE
-    random_lib
+    pricing_lib
     GTest::gtest_main
 )
 

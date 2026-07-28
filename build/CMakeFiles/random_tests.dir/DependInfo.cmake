@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_boxmuller.cpp" "CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o" "gcc" "CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o.d"
   "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_lcg.cpp" "CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o" "gcc" "CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o.d"
+  "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_monte_carlo_pricer.cpp" "CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o" "gcc" "CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o.d"
   "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/test_mt.cpp" "CMakeFiles/random_tests.dir/tests/test_mt.cpp.o" "gcc" "CMakeFiles/random_tests.dir/tests/test_mt.cpp.o.d"
   )
 

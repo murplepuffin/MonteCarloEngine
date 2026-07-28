@@ -1033,7 +1033,12 @@ CMakeFiles/montecarlo.dir/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/pricing/BlackScholesModel.hpp
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/pricing/EuropeanPayoffs.hpp
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/pricing/MonteCarloPricer.hpp
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/pricing/Payoff.hpp
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/random/BoxMullerNormal.hpp
+ /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/random/INormalGenerator.hpp
  /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/random/IRandomGenerator.hpp
- /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/random/LCGRandom.hpp
  /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include/random/MTRandom.hpp
 

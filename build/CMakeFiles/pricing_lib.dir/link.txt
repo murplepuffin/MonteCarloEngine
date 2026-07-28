@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpricing_lib.a CMakeFiles/pricing_lib.dir/src/pricing/MonteCarloPricer.cpp.o
+/usr/bin/ranlib libpricing_lib.a

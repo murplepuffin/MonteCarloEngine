@@ -6,7 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I"/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/include" -isystem "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest/include" -isystem "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/_deps/googletest-src/googletest"
 
-CXX_FLAGSarm64 = -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
-
-CXX_FLAGS = -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic
 

@@ -1,5 +1,5 @@
 {
-  "tests": 7,
+  "tests": 11,
   "name": "AllTests",
   "testsuites": [
     {
@@ -52,6 +52,38 @@
           "name": "DistributionStatistics",
           "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_boxmuller.cpp",
           "line": 6
+        }
+      ]
+    },
+    {
+      "name": "EuropeanPayoffTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CallAndPutReturnIntrinsicValue",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_monte_carlo_pricer.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "MonteCarloPricerTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ZeroVolatilityMatchesDiscountedPayoff",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_monte_carlo_pricer.cpp",
+          "line": 31
+        },
+        {
+          "name": "PricesEuropeanCallNearBlackScholesValue",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_monte_carlo_pricer.cpp",
+          "line": 46
+        },
+        {
+          "name": "RejectsInvalidInputs",
+          "file": "\/Users\/kevinnguyen\/Documents\/quant study materials\/projects\/MonteCarloEngine\/tests\/test_monte_carlo_pricer.cpp",
+          "line": 59
         }
       ]
     }

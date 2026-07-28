@@ -1,4 +1,5 @@
 /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles/random_lib.dir
+/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles/pricing_lib.dir
 /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles/montecarlo.dir
 /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles/random_tests.dir
 /Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles/test.dir

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/random_tests.dir/tests/test_boxmuller.cpp.o.d"
   "CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o"
   "CMakeFiles/random_tests.dir/tests/test_lcg.cpp.o.d"
+  "CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o"
+  "CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o.d"
   "CMakeFiles/random_tests.dir/tests/test_mt.cpp.o"
   "CMakeFiles/random_tests.dir/tests/test_mt.cpp.o.d"
   "random_tests"

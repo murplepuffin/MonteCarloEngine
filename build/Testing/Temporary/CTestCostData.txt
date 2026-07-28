@@ -1,7 +1,12 @@
-LCGRandomTest.ValuesAreInRange 1 0.0110848
-LCGRandomTest.SameSeedProducesSameSequence 1 0.00485246
-LCGRandomTest.MeanIsApproximatelyHalf 1 0.0118829
-MTRandomTest.ValuesAreInRange 1 0.011192
-MTRandomTest.SameSeedProducesSameSequence 1 0.00443463
-MTRandomTest.MeanIsApproximatelyHalf 1 0.0317113
+LCGRandomTest.ValuesAreInRange 4 0.00185841
+LCGRandomTest.SameSeedProducesSameSequence 4 0.000974542
+LCGRandomTest.MeanIsApproximatelyHalf 4 0.00211581
+MTRandomTest.ValuesAreInRange 4 0.00216373
+MTRandomTest.SameSeedProducesSameSequence 4 0.000845438
+MTRandomTest.MeanIsApproximatelyHalf 4 0.0115316
+BoxMullerTest.DistributionStatistics 3 0.0219389
+EuropeanPayoffTest.CallAndPutReturnIntrinsicValue 2 0.00160069
+MonteCarloPricerTest.ZeroVolatilityMatchesDiscountedPayoff 2 0.00137308
+MonteCarloPricerTest.PricesEuropeanCallNearBlackScholesValue 2 0.00944808
+MonteCarloPricerTest.RejectsInvalidInputs 2 0.00151619
 ---

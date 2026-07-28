@@ -95,6 +95,7 @@ montecarlo_EXTERNAL_OBJECTS =
 
 montecarlo: CMakeFiles/montecarlo.dir/main.cpp.o
 montecarlo: CMakeFiles/montecarlo.dir/build.make
+montecarlo: libpricing_lib.a
 montecarlo: librandom_lib.a
 montecarlo: CMakeFiles/montecarlo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable montecarlo"

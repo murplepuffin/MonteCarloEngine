@@ -185,6 +185,19 @@ random_lib/fast:
 .PHONY : random_lib/fast
 
 #=============================================================================
+# Target rules for targets named pricing_lib
+
+# Build rule for target.
+pricing_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pricing_lib
+.PHONY : pricing_lib
+
+# fast build rule for target.
+pricing_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pricing_lib.dir/build.make CMakeFiles/pricing_lib.dir/build
+.PHONY : pricing_lib/fast
+
+#=============================================================================
 # Target rules for targets named montecarlo
 
 # Build rule for target.
@@ -285,6 +298,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/montecarlo.dir/build.make CMakeFiles/montecarlo.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/pricing/MonteCarloPricer.o: src/pricing/MonteCarloPricer.cpp.o
+.PHONY : src/pricing/MonteCarloPricer.o
+
+# target to build an object file
+src/pricing/MonteCarloPricer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pricing_lib.dir/build.make CMakeFiles/pricing_lib.dir/src/pricing/MonteCarloPricer.cpp.o
+.PHONY : src/pricing/MonteCarloPricer.cpp.o
+
+src/pricing/MonteCarloPricer.i: src/pricing/MonteCarloPricer.cpp.i
+.PHONY : src/pricing/MonteCarloPricer.i
+
+# target to preprocess a source file
+src/pricing/MonteCarloPricer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pricing_lib.dir/build.make CMakeFiles/pricing_lib.dir/src/pricing/MonteCarloPricer.cpp.i
+.PHONY : src/pricing/MonteCarloPricer.cpp.i
+
+src/pricing/MonteCarloPricer.s: src/pricing/MonteCarloPricer.cpp.s
+.PHONY : src/pricing/MonteCarloPricer.s
+
+# target to generate assembly for a file
+src/pricing/MonteCarloPricer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pricing_lib.dir/build.make CMakeFiles/pricing_lib.dir/src/pricing/MonteCarloPricer.cpp.s
+.PHONY : src/pricing/MonteCarloPricer.cpp.s
 
 src/random/BoxMullerNormal.o: src/random/BoxMullerNormal.cpp.o
 .PHONY : src/random/BoxMullerNormal.o
@@ -406,6 +443,30 @@ tests/test_lcg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_tests.dir/build.make CMakeFiles/random_tests.dir/tests/test_lcg.cpp.s
 .PHONY : tests/test_lcg.cpp.s
 
+tests/test_monte_carlo_pricer.o: tests/test_monte_carlo_pricer.cpp.o
+.PHONY : tests/test_monte_carlo_pricer.o
+
+# target to build an object file
+tests/test_monte_carlo_pricer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_tests.dir/build.make CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.o
+.PHONY : tests/test_monte_carlo_pricer.cpp.o
+
+tests/test_monte_carlo_pricer.i: tests/test_monte_carlo_pricer.cpp.i
+.PHONY : tests/test_monte_carlo_pricer.i
+
+# target to preprocess a source file
+tests/test_monte_carlo_pricer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_tests.dir/build.make CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.i
+.PHONY : tests/test_monte_carlo_pricer.cpp.i
+
+tests/test_monte_carlo_pricer.s: tests/test_monte_carlo_pricer.cpp.s
+.PHONY : tests/test_monte_carlo_pricer.s
+
+# target to generate assembly for a file
+tests/test_monte_carlo_pricer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_tests.dir/build.make CMakeFiles/random_tests.dir/tests/test_monte_carlo_pricer.cpp.s
+.PHONY : tests/test_monte_carlo_pricer.cpp.s
+
 tests/test_mt.o: tests/test_mt.cpp.o
 .PHONY : tests/test_mt.o
 
@@ -448,11 +509,15 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... montecarlo"
+	@echo "... pricing_lib"
 	@echo "... random_lib"
 	@echo "... random_tests"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/pricing/MonteCarloPricer.o"
+	@echo "... src/pricing/MonteCarloPricer.i"
+	@echo "... src/pricing/MonteCarloPricer.s"
 	@echo "... src/random/BoxMullerNormal.o"
 	@echo "... src/random/BoxMullerNormal.i"
 	@echo "... src/random/BoxMullerNormal.s"
@@ -468,6 +533,9 @@ help:
 	@echo "... tests/test_lcg.o"
 	@echo "... tests/test_lcg.i"
 	@echo "... tests/test_lcg.s"
+	@echo "... tests/test_monte_carlo_pricer.o"
+	@echo "... tests/test_monte_carlo_pricer.i"
+	@echo "... tests/test_monte_carlo_pricer.s"
 	@echo "... tests/test_mt.o"
 	@echo "... tests/test_mt.i"
 	@echo "... tests/test_mt.s"
