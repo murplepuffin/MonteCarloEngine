@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
 
-#include "random/MTRandom.hpp"
+#include "random/LCGRandom.hpp"
 
-TEST(MTRandomTest, ValuesAreInRange) {
-    MTRandom rng(42);
+TEST(LCGRandomTest, ValuesAreInRange) {
+    LCGRandom rng(42);
 
     for (int i = 0; i < 100000; ++i) {
         double value = rng.nextDouble();
@@ -13,9 +13,9 @@ TEST(MTRandomTest, ValuesAreInRange) {
     }
 }
 
-TEST(MTRandomTest, SameSeedProducesSameSequence) {
-    MTRandom rng1(12345);
-    MTRandom rng2(12345);
+TEST(LCGRandomTest, SameSeedProducesSameSequence) {
+    LCGRandom rng1(12345);
+    LCGRandom rng2(12345);
 
     for (int i = 0; i < 1000; ++i) {
         EXPECT_DOUBLE_EQ(
@@ -25,8 +25,8 @@ TEST(MTRandomTest, SameSeedProducesSameSequence) {
     }
 }
 
-TEST(MTRandomTest, MeanIsApproximatelyHalf) {
-    MTRandom rng(42);
+TEST(LCGRandomTest, MeanIsApproximatelyHalf) {
+    LCGRandom rng(42);
 
     const int N = 1000000;
 
