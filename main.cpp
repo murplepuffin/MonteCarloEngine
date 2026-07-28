@@ -1,23 +1,25 @@
-#include <iostream>
-#include "random/LCGRandom.hpp"
+#include "pricing/EuropeanPayoffs.hpp"
+#include "pricing/MonteCarloPricer.hpp"
+#include "random/BoxMullerNormal.hpp"
 #include "random/MTRandom.hpp"
 
+#include <iostream>
+#include <memory>
+
 int main() {
-    //LCGRandom rng(42);
-    MTRandom rng(42);   
+    auto normalGenerator = std::make_unique<BoxMullerNormal>(
+        std::make_unique<MTRandom>(42));
+    MonteCarloPricer pricer(std::move(normalGenerator));
 
-/* 
-    for (int i = 0; i < 10; ++i) {
-        std::cout << "LCG: " << rng.nextDouble() << std::endl;
-    }
-*/
-    for (int i = 0; i < 10; i++) {
-        std::cout << "MT: " << rng.nextDouble() << std::endl;
-    }
+    const BlackScholesModel model{
+        .spot = 100.0,
+        .riskFreeRate = 0.05,
+        .volatility = 0.2,
+        .maturity = 1.0,
+    };
+    EuropeanCallPayoff call(100.0);
 
-/*    for (int i = 0; i < 20; ++i) {
-        std::cout << normal.nextNormal() << std::endl;
-    }*/
-
+    std::cout << "European call price: "
+              << pricer.priceEuropean(call, model, 1'000'000) << '\n';
     return 0;
 }
