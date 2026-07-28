@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/montecarlo.dir/main.cpp.o -o montecarlo  libpricing_lib.a librandom_lib.a

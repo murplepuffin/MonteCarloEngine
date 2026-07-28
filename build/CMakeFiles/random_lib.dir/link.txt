@@ -1,2 +1,0 @@
-/usr/bin/ar qc librandom_lib.a CMakeFiles/random_lib.dir/src/random/LCGRandom.cpp.o CMakeFiles/random_lib.dir/src/random/MTRandom.cpp.o CMakeFiles/random_lib.dir/src/random/BoxMullerNormal.cpp.o
-/usr/bin/ranlib librandom_lib.a

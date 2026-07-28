@@ -1,0 +1,10 @@
+# CMake build products and downloaded dependencies
+/build/
+/tests/CMakeCache.txt
+/tests/CMakeFiles/
+/tests/_deps/
+/tests/random_tests*_include.cmake
+
+# Local editor and operating-system metadata
+.DS_Store
+nvim.log

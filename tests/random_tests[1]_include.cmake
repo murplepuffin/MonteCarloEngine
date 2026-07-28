@@ -1,5 +1,0 @@
-if(EXISTS "/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/random_tests[1]_tests.cmake")
-  include("/Users/kevinnguyen/Documents/quant study materials/projects/MonteCarloEngine/tests/random_tests[1]_tests.cmake")
-else()
-  add_test(random_tests_NOT_BUILT random_tests_NOT_BUILT)
-endif()
